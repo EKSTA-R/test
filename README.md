@@ -7,26 +7,26 @@ using namespace std;
 
 int main() {
     char op;
-    double a, b;
+    double c, d;
 
     cout << "из математики 2 класса чота выбери (+, -, *, /): ";
     cin >> op;
     cout << "напеше 2 чесла: ";
-    cin >> a >> b;
+    cin >> c >> d;
 
     switch (op) {
     case '+':
-        cout << a << " + " << b << " = " << a + b;
+        cout << c << " + " << d << " = " << c + d;
         break;
     case '-':
-        cout << a << " - " << b << " = " << a - b;
+        cout << c << " - " << d << " = " << c - d;
         break;
     case '*':
-        cout << a << " * " << b << " = " << a * b;
+        cout << c << " * " << d << " = " << c * d;
         break;
     case '/':
         if (b != 0)
-            cout << a << " / " << b << " = " << a / b;
+            cout << c << " / " << d << " = " << c / d;
         else
             cout << "ээээээээээээээээээээ на ноль делать нельзя ";
         break;
